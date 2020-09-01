@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/about_app_bg">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <ImageView
+           android:layout_width="150dp"
+           android:src="@mipmap/ic_launcher_foreground"
+           android:layout_height="150dp"
+           android:layout_centerInParent="true"
+           android:contentDescription="@string/app_name" />
+   </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="29sp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="@string/about_timely"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+     <TextView
+         android:padding="10dp"
+         android:layout_marginTop="6dp"
+         android:layout_width="match_parent"
+         android:textSize="21sp"
+         android:fontFamily="@font/amaranth_bold"
+         android:textColor="@android:color/white"
+         android:text="@string/about_timely_app"
+         android:layout_height="wrap_content"/>
+ </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:paddingBottom="10dp"
+    android:orientation="vertical">
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/close"
+        android:id="@+id/close_aboutapp_dialog"
+        android:fontFamily="@font/amaranth_bold"
+        android:textSize="16sp"
+        android:textColor="@color/chipColor"
+        app:backgroundTint="@color/task_time_color1"
+        android:background="@drawable/btn_bg"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

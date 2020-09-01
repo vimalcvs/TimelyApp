@@ -1,0 +1,76 @@
+<resources>
+
+    <!--  WHITE MODE-->
+    <style name="WhiteMode" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">@color/background_color</item>
+        <item name="cardgroundcolor">@color/background_color</item>
+        <item name="toastcolor">@color/toast_text_color</item>
+        <item name="textcolor">@color/task_time_color</item>
+        <item name="CreateAlarmIconColor">@color/create_alarm_color</item>
+        <item name="bottomSheetIconColor">@color/task_time_color</item>
+        <item name="bottomBarBackground">@color/colorItemDefaultBackground</item>
+        <item name="bottomBarBackgroundTextColor">@color/task_time_color</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <item name="toolbarStyle">@style/WhiteMode.Toolbar</item>
+        <item name="repeatbottomSheetIconColor">#9E151515</item>
+        <item name="chipBackground">@color/background_color</item>
+    </style>
+
+    <!-- DARK MODE. -->
+    <style name="DarkMode" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+        <item name="backgroundcolor">@color/background_color1</item>
+        <item name="cardgroundcolor">@color/Cardbackground_color1</item>
+        <item name="toastcolor">@color/toast_text_color1</item>
+        <item name="textcolor">@color/task_time_color1</item>
+        <item name="CreateAlarmIconColor">@color/create_alarm_color1</item>
+        <item name="bottomSheetIconColor">@color/task_time_color1</item>
+        <item name="bottomBarBackground">@color/colorItemDefaultBackground1</item>
+        <item name="bottomBarBackgroundTextColor">@color/task_time_color1</item>
+        <item name="repeatbottomSheetIconColor">#9EFFFFFF</item>
+        <item name="chipBackground">@color/background_color1</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <!--    color for white toobar text-->
+    <style name="WhiteMode.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@android:color/black</item>
+    </style>
+
+    <!--    animation-->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+   <style name="chipText" parent="TextAppearance.MaterialComponents.Chip">
+       <item name="android:textSize">15sp</item>
+       <item name="android:fontFamily">sans-serif-black</item>
+   </style>
+
+    <!--    styleable toast theme-->
+    <style name="myToast">
+        <item name="colorBackground">@color/colorBottomBarBackground1</item>
+        <item name="textColor">@color/toast_text_color1</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="iconRight">@drawable/toast_success</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">3dp</item>
+    </style>
+    <style name="myToast1">
+        <item name="colorBackground">@color/colorBottomBarBackground1</item>
+        <item name="textColor">@color/toast_text_color1</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="iconRight">@drawable/ic_cancel</item>
+        <item name="length">LONG</item>
+        <item name="cornerRadius">3dp</item>
+    </style>
+
+</resources>
+

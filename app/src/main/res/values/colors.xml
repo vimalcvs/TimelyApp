@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    colors for black theme-->
+    <color name="colorPrimary1">#2E2D2D</color>
+    <color name="colorPrimaryDark">#2E2D2D</color>
+    <color name="colorAccent1">#35C23B</color>
+    <color name="task_time_color1">#FCFAFA</color>
+    <color name="create_alarm_color1">#FFC107</color>
+    <color name="Cardbackground_color1">#242323</color>
+    <color name="background_color1">#000000</color>
+    <color name="colorBottomBarBackground1">#FFFFFF</color>
+    <color name="colorItemDefaultBackground1">#2E2D2D</color>
+    <color name="colorItemDefaultTint">#000000</color>
+    <color name="colorItem1Background">#FFC107</color>
+    <color name="colorItem2Background">#C2D0F8</color>
+    <color name="colorDivider">#E6E6E6</color>
+    <color name="red">#E71515</color>
+    <color name="toast_text_color1">#000000</color>
+
+    <!--    colors for white theme-->
+    <color name="colorAccent">#B8B5B5</color>
+    <color name="background_color">#B8B5B5</color>
+    <color name="colorPrimary">#B8B5B5</color>
+    <color name="task_time_color">#000000</color>
+    <color name="colorItemDefaultBackground">#808080</color>
+    <color name="create_alarm_color">#000000</color>
+    <color name="colorBottomBarBackground">#000000</color>
+    <color name="toast_text_color">#FFFFFF</color>
+    <color name="chipColor">#673AB7</color>
+</resources>
+

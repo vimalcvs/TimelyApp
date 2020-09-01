@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="cardgroundcolor" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="toastcolor" format="color"/>
+        <attr name="CreateAlarmIconColor" format="color"/>
+        <attr name="bottomSheetIconColor" format="color"/>
+        <attr name="repeatbottomSheetIconColor" format="color"/>
+        <attr name="bottomBarBackground" format="color"/>
+        <attr name="chipBackground" format="color"/>
+        <attr name="bottomBarBackgroundTextColor" format="color"/>
+    </declare-styleable>
+</resources>

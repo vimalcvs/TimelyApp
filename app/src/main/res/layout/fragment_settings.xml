@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settings_bg"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/changeThemeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:text="@string/dark_mode" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/switchTheme"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/settings_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/AboutApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+           android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:text="@string/about_app" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/settings_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/PrivacyPolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:text="@string/App_policy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/settings_bg"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/RateApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:drawablePadding="3dp"
+            android:drawableEnd="@drawable/ic_rate_app"
+            android:text="@string/rate_app" />
+
+        <TextView
+            android:id="@+id/Recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:drawablePadding="6dp"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_share"
+            android:text="@string/share_app" />
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="textStart"
+            android:drawablePadding="6dp"
+            android:textColor="?attr/textcolor"
+            android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_contact_us"
+            android:text="@string/contact_us" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
